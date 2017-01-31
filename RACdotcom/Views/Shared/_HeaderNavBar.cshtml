@@ -1,9 +1,8 @@
 ﻿<!-- header / navbar partial view -->
-
 <ul class="topnav" id="customNav">
-    <li><a href="#home">About</a></li>
-    <li><a href="#pro">Career</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li>@Html.ActionLink("Ryan A. Compton", "Index", "Home")</li>
+    <li>@Html.ActionLink("Career", "Pro", "Pro")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Contact")</li>
     <li class="icon">
         <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
     </li>
