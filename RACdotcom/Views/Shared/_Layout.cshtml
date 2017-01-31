@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
-    <link href="~/Content/Custom.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
@@ -15,26 +15,18 @@
     }
 
     <div class="row panel">
-        <div id="categories" class="col-xs-3">
-
-            maybe put some useful links here??
-            <br /> some kind of fun content?
-
-        </div>
-        <div class="col-xs-9">
             @RenderBody()
-        </div>
     </div>
 
 
-    <footer>
-        <p>&nbsp;&copy; Ryan Compton - @DateTime.Now.Year</p>
-    </footer>
+    <div class="customFooter">
+        &nbsp;&copy; Ryan Compton - @DateTime.Now.Year
+    </div>
 
     <script>
         function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
+            var x = document.getElementById("customNav");
+            if (x.className == "topnav") {
                 x.className += " responsive";
             } else {
                 x.className = "topnav";

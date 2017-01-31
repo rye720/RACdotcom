@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace RACdotcom.Controllers
 {
-    public class NavController : Controller
+    public class ProController : Controller
     {
-        // GET: Nav
-        public string Menu()
+        // GET: Pro
+        public ActionResult Pro()
         {
-            return "string from the navcontroller";
+            return View();
         }
     }
 }
