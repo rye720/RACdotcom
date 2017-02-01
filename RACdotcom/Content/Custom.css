@@ -2,6 +2,20 @@
     background-color: black;
 }
 
+div.moon {
+    width: 140px;
+    height: 140px;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+    background-color: black;
+    background: #fffef3; /* Old browsers */
+    background: -moz-linear-gradient(top, #fffef3 27%, #fef084 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fffef7 27%,#fef084 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fffef7 27%,#fef084 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffef3', endColorstr='#fef088',GradientType=0 ); /* IE6-9 */
+}
+
 div.cloudtext {
     color: #bfbea8;
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
@@ -13,11 +27,13 @@ div.cloudtext {
 
 /* for footer gradient*/
 div.customFooter {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     bottom: 0;
+    left: 0;
+    right: 0;
     overflow: hidden;
-    color: #f2f2f2;
+    color: #bfbea8;
     text-align: center;
     padding: 14px 16px;
     transition: 0.3s;
