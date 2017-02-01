@@ -1,4 +1,16 @@
-﻿
+﻿body {
+    background-color: black;
+}
+
+div.cloudtext {
+    color: #bfbea8;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+
 /* for footer gradient*/
 div.customFooter {
     position: absolute;
