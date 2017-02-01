@@ -1,0 +1,6 @@
+#gitignore file for rac personal site
+
+#visual studio
+*.suo
+*.user
+*.sdf
