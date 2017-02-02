@@ -2,16 +2,30 @@
     background-color: black;
 }
 
-/* heart */
-div.heartshape {
-    width: 5px;
-    height: 5px;
-    box-shadow: 45px 40px 0 #E74C3C,65px 40px 0 #E74C3C,40px 45px 0 #E74C3C,45px 45px 0 #E74C3C,50px 45px 0 #E74C3C,60px 45px 0 #E74C3C,65px 45px 0 #E74C3C,70px 45px 0 #E74C3C,35px 50px 0 #E74C3C,40px 50px 0 #E74C3C,45px 50px 0 #E74C3C,50px 50px 0 #ED7866,55px 50px 0 #E74C3C,60px 50px 0 #E74C3C,65px 50px 0 #E74C3C,70px 50px 0 #E74C3C,75px 50px 0 #E74C3C,35px 55px 0 #E74C3C,40px 55px 0 #E74C3C,45px 55px 0 #ED7866,50px 55px 0 #ED7866,55px 55px 0 #E74C3C,60px 55px 0 #E74C3C,65px 55px 0 #E74C3C,70px 55px 0 #E74C3C,75px 55px 0 #E74C3C,40px 60px 0 #E74C3C,45px 60px 0 #E74C3C,50px 60px 0 #E74C3C,55px 60px 0 #E74C3C,60px 60px 0 #E74C3C,65px 60px 0 #E74C3C,70px 60px 0 #E74C3C,45px 65px 0 #E74C3C,50px 65px 0 #E74C3C,55px 65px 0 #E74C3C,60px 65px 0 #E74C3C,65px 65px 0 #E74C3C,50px 70px 0 #E74C3C,55px 70px 0 #E74C3C,60px 70px 0 #E74C3C,55px 75px 0 #E74C3C;
+.list-group {
+    background-color: #f2f2f2;
+    color: black;
+    border-style: groove;
+    border-color: #bfbea8;
+    border-width: 5px;
 }
 
-div.computer{
-    width: 5px;
-    height: 5px;
+/* heart */
+div.heartshape {
+
+    width: 3px;
+    height: 3px;
+    box-shadow: 45px 40px 0 #E74C3C,65px 40px 0 #E74C3C,40px 45px 0 #E74C3C,45px 45px 0 #E74C3C,50px 45px 0 #E74C3C,60px 45px 0 #E74C3C,65px 45px 0 #E74C3C,70px 45px 0 #E74C3C,35px 50px 0 #E74C3C,40px 50px 0 #E74C3C,45px 50px 0 #E74C3C,50px 50px 0 #ED7866,55px 50px 0 #E74C3C,60px 50px 0 #E74C3C,65px 50px 0 #E74C3C,70px 50px 0 #E74C3C,75px 50px 0 #E74C3C,35px 55px 0 #E74C3C,40px 55px 0 #E74C3C,45px 55px 0 #ED7866,50px 55px 0 #ED7866,55px 55px 0 #E74C3C,60px 55px 0 #E74C3C,65px 55px 0 #E74C3C,70px 55px 0 #E74C3C,75px 55px 0 #E74C3C,40px 60px 0 #E74C3C,45px 60px 0 #E74C3C,50px 60px 0 #E74C3C,55px 60px 0 #E74C3C,60px 60px 0 #E74C3C,65px 60px 0 #E74C3C,70px 60px 0 #E74C3C,45px 65px 0 #E74C3C,50px 65px 0 #E74C3C,55px 65px 0 #E74C3C,60px 65px 0 #E74C3C,65px 65px 0 #E74C3C,50px 70px 0 #E74C3C,55px 70px 0 #E74C3C,60px 70px 0 #E74C3C,55px 75px 0 #E74C3C;
+
+}
+
+/* not sure about the performance on this, make sure to use one of the analytic extensions to check 
+*/
+
+div.pixelComputer {
+
+    width: 3px;
+    height: 3px;
     box-shadow: 20px 20px 0 #CDE9F2,25px 20px 0 #CDE9F2,30px 20px 0 #CDE9F2,
         35px 20px 0 #CDE9F2,40px 20px 0 #CDE9F2,45px 20px 0 #CDE9F2,
         50px 20px 0 #CDE9F2,55px 20px 0 #CDE9F2,60px 20px 0 #CDE9F2,
