@@ -5,7 +5,7 @@ Professional website for Ryan A. Compton
 <table>
 
 <tr>
-<th style="width: 100%;">Site Requirements</th>
+<th colspan="2">Site Requirements</th>
 </tr>
 
 <tr>
