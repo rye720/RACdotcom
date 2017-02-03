@@ -46,7 +46,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>bundling</td>
-<td></td>
+<td>DONE</td>
 </tr>
 <tr>
 <td>CDN</td>
