@@ -45,9 +45,10 @@ C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Mvc.xml
 C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.csprojResolveAssemblyReference.cache
 C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.dll
 C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.pdb
-C:\Projects\RACdotcom\RACdotcom\bin\AjaxMin.dll
 C:\Projects\RACdotcom\RACdotcom\bin\Antlr3.Runtime.dll
 C:\Projects\RACdotcom\RACdotcom\bin\Newtonsoft.Json.dll
 C:\Projects\RACdotcom\RACdotcom\bin\WebGrease.dll
 C:\Projects\RACdotcom\RACdotcom\bin\Antlr3.Runtime.pdb
 C:\Projects\RACdotcom\RACdotcom\bin\Newtonsoft.Json.xml
+C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Optimization.dll
+C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Optimization.xml

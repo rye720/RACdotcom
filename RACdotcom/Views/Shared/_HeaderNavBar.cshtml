@@ -1,9 +1,10 @@
 ﻿<!-- header / navbar partial view -->
 <ul class="topnav" id="customNav">
-    <li>@Html.ActionLink("Ryan A. Compton", "Index", "Home")</li>
-    <li>@Html.ActionLink("Career", "Pro", "Pro")</li>
-    <li>@Html.ActionLink("Contact", "Contact", "Contact")</li>
+    <li id="homeButton">@Html.ActionLink("Ryan A. Compton", "Index", "Home")</li>
+    <li id="careerButton">@Html.ActionLink("Career", "Pro", "Pro")</li>
+    <li id="contactButton">@Html.ActionLink("Contact", "Contact", "Contact")</li>
     <li class="icon">
+        <!-- i think using the onlick method may be bad. look for an alternative? -->
         <a href="javascript:void(0);" style="font-size:15px;" onclick="navSwitch()">☰</a>
     </li>
 </ul>

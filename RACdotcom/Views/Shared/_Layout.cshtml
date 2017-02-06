@@ -2,10 +2,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    @*<link href="~/Content/bootstrap.css" rel="stylesheet" />
-        <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
-        <link href="~/Content/custom.css" rel="stylesheet" />*@
-    <link href="~/Content/bundle.min.css" rel="stylesheet" />
+    @{
+        Styles.Render("~/bundles/bootstap");
+    }
     <title>@ViewBag.Title</title>
 </head>
 <body>
@@ -20,8 +19,9 @@
     }
     <!-- is this is an acceptable way to use bundling?
         do i have to use razor's scripts.render()? 
-        -->>
-    <script src="~/Scripts/bundle.min.js"></script>
-
+        -->
+    @{
+        Scripts.Render();
+    }
 </body>
 </html>

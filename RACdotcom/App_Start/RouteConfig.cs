@@ -15,20 +15,20 @@ namespace RACdotcom
 
             routes.MapRoute(
                 name: "Home",
-                url: "{controller}/{action}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                url: "",
+                defaults: new { controller = "Home", action = "Index" }
             );
 
             routes.MapRoute(
                name: "Pro",
-               url: "{controller}/{action}",
-               defaults: new { controller = "Pro", action = "Pro", id = UrlParameter.Optional }
+               url: "Career",
+               defaults: new { controller = "Pro", action = "Pro"}
            );
 
             routes.MapRoute(
                name: "Contact",
-               url: "{controller}/{action}",
-               defaults: new { controller = "Contact", action = "Contact", id = UrlParameter.Optional }
+               url: "Contact",
+               defaults: new { controller = "Contact", action = "Contact"}
            );
 
         }
