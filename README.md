@@ -54,7 +54,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>google analytics</td>
-<td></td>
+<td>in progress</td>
 </tr>
 <tr>
 <td>handle 400, 500 status err.s</td>
