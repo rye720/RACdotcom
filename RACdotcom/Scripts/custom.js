@@ -27,6 +27,7 @@ $(document).ready(function () {
 //hides navbar sections on small screens, replaces with '3 horizontal bars' icon
 //consider switching this over to jquery also
 //i think matt said onclick calls were bad
+
 function navSwitch() {
     var x = document.getElementById("customNav");
     if (x.className === "topnav") {
