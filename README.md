@@ -14,7 +14,7 @@ Professional website for Ryan A. Compton
 
 <tr>
 <td>resume</td>
-<td></td>
+<td>still needs updating!</td>
 </tr>
 <tr>
 <td>statement</td>
@@ -54,7 +54,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>google analytics</td>
-<td>in progress</td>
+<td>IMPLEMENTED, needs testing after hosting</td>
 </tr>
 <tr>
 <td>handle 400, 500 status err.s</td>
