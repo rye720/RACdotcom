@@ -26,15 +26,15 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>e-mail</td>
-<td></td>
+<td>DONE</td>
 </tr>
 <tr>
 <td>contact info</td>
-<td></td>
+<td>done but page could use some styling</td>
 </tr>
 <tr>
 <td>front page</td>
-<td>DONE</td>
+<td>DONE, but keep styling!</td>
 </tr>
 <tr>
 <td>shared layout</td>
