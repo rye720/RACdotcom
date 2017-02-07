@@ -74,3 +74,14 @@ Professional website for Ryan A. Compton
 </tr>
 
 </table>
+
+<br/>
+
+<table>
+<th>Things I Want to Add</th>
+<tr>
+<td>Project screens</td>
+</tr>
+<tr>
+<td>front page pixel stuff</td>
+</tr>
