@@ -2,26 +2,15 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    @{
-        Styles.Render("~/bundles/bootstap");
-    }
     <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
 </head>
 <body>
-    @{
-        Html.RenderPartial("_HeaderNavBar");
-    }
-
-    @RenderBody()
-
-    @{
-        Html.RenderPartial("_CustomFooter");
-    }
-    <!-- is this is an acceptable way to use bundling?
-        do i have to use razor's scripts.render()? 
-        -->
-    @{
-        Scripts.Render();
-    }
+        @Html.Partial("_HeaderNavBar")
+        @RenderBody()
+        @Html.Partial("_CustomFooter")
+        @Scripts.Render("~/bundles/jQuery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/customJS")     
 </body>
 </html>
