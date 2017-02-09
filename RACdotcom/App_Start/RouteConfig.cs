@@ -30,7 +30,6 @@ namespace RACdotcom
                url: "Contact",
                defaults: new { controller = "Contact", action = "Contact"}
            );
-
         }
     }
 }

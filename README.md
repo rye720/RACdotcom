@@ -30,7 +30,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>contact info</td>
-<td>done but page could use some styling</td>
+<td>DONE, more content?</td>
 </tr>
 <tr>
 <td>front page</td>
@@ -46,7 +46,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>bundling</td>
-<td>DONE (the right way, methinks)</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td>CDN</td>
