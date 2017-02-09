@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    @Html.Partial("_HeaderNavBar")
+    @RenderBody()
+    @Html.Partial("_CustomFooter")
+    @Scripts.Render("~/bundles/jQuery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/customJS")
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+</html>
