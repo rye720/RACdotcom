@@ -14,7 +14,7 @@ Professional website for Ryan A. Compton
 
 <tr>
 <td>resume</td>
-<td>still needs updating!</td>
+<td>DONE</td>
 </tr>
 <tr>
 <td>statement</td>
