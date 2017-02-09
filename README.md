@@ -58,7 +58,8 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>handle 400, 500 status err.s</td>
-<td></td>
+<td>attempted but not sure if done correctly
+<br/>may work as is once deployed online</td>
 </tr>
 <tr>
 <td>bootstrap</td>

@@ -8,7 +8,7 @@ namespace RACdotcom.Controllers
 {
     public class ProController : Controller
     {
-        // GET: Pro
+        [HandleError]
         public ActionResult Pro()
         {
             return View();

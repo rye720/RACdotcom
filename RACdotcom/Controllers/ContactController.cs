@@ -8,7 +8,7 @@ namespace RACdotcom.Controllers
 {
     public class ContactController : Controller
     {
-        // GET: Contact
+        [HandleError]
         public ActionResult Contact()
         {
             return View();
