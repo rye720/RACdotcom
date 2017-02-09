@@ -3,7 +3,9 @@
 // #homeBtn means refer to the element with id 'homeBtn'
 // also, there's probably a way to reduce this to one function
 // instead of three seperate ones
-//COME BACK AND TEST THIS STUFF AFTER SETTING UP HOSTIN!G
+
+// COME BACK AND TEST THIS STUFF AFTER SETTING UP HOSTING
+// how to test before deployment?
 
 // usual jquery style
 $(document).ready(function () {
