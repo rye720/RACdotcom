@@ -11,6 +11,11 @@
     border-width: 5px;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 div.cloudtext {
     color: #bfbea8;
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;

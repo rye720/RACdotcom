@@ -67,7 +67,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>host on github</td>
-<td></td>
+<td>deploy after code review</td>
 </tr>
 <tr>
 <td>use 'jquery module pattern'</td>
@@ -90,5 +90,5 @@ Professional website for Ryan A. Compton
 <td>list of tools I like with links</td>
 </tr>
 <tr>
-<td>career history</td>
+<td>career history (DONE)</td>
 </tr>
