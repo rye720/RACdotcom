@@ -8,8 +8,6 @@ namespace RACdotcom.Controllers
 {
     public class HomeController : Controller
     {
-        // I believe this handles 500 internal server errors
-        [HandleError]
         public ActionResult Index()
         {
             return View();

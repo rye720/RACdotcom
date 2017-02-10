@@ -15,11 +15,9 @@ namespace RACdotcom.App_Start
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                 "~/Scripts/bootstrap.js"));
             bundles.Add(new ScriptBundle("~/bundles/customJS").Include("~/Scripts/custom.js"));
-
             //CSS
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/bootstrap.css",
                         "~/Content/custom.css"));
-
             BundleTable.EnableOptimizations = true;
         }
     }

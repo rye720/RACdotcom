@@ -2,27 +2,22 @@
 $(document).ready(function () {
 
     /********** jQuery for Google Analytics **********/
-    // COME BACK AND TEST THIS STUFF AFTER SETTING UP HOSTING
-    // how to test before deployment?
     // there's probably a way to reduce this to one function
     $('#homeBtn').click(function () {
         var pageTitle = $('title').text();
         var linkText = $(this).text();
-        //alert("pagetitle: " + pageTitle + " linktext: " + linkText);
         ga('send', 'event', pageTitle, linkText);
     });
 
     $('#careerBtn').click(function () {
         var pageTitle = $('title').text();
         var linkText = $(this).text();
-        //alert("pagetitle: " + pageTitle + " linktext: " + linkText);
        ga('send', 'event', pageTitle, linkText);
     });
 
     $('#contactBtn').click(function () {
         var pageTitle = $('title').text();
         var linkText = $(this).text();
-        //alert("pagetitle: "+pageTitle+" linktext: "+ linkText);
        ga('send', 'event', pageTitle, linkText);
     });
     /******** END jQuery for Google Analytics ********/
@@ -41,7 +36,7 @@ $(document).ready(function () {
 
 
 // attempting module pattern
-//(function () {
+//$(function () {
 
 //    $('#homeBtn').click(function () {
 //        var pageTitle = $('title').text();
@@ -63,6 +58,15 @@ $(document).ready(function () {
 //        alert("pagetitle: "+pageTitle+" linktext: "+ linkText);
 //        ga('send', 'event', pageTitle, linkText);
 //    });
+
+//notes (approximate syntax):
+// @section pagescripts
+// ex:
+// var contacthelper = $function()
+// on ready:
+//   bindings
+
+// need .js files for each page!
 
 //});
 
