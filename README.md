@@ -86,3 +86,9 @@ Professional website for Ryan A. Compton
 <tr>
 <td>front page pixel stuff</td>
 </tr>
+<tr>
+<td>list of tools I like with links</td>
+</tr>
+<tr>
+<td>career history</td>
+</tr>
