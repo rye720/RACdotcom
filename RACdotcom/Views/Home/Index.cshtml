@@ -2,6 +2,23 @@
     ViewBag.Title = "RAC: Home";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<!-- where is the best place to put this? -->
+<!-- cant be in a partial view, but will it be considered too rendundant to place in every regular view? 
+    
+    ask tomorrow
+    
+    -->
+@section scripts {
+    <script>
+        (function (helper) {
+            $(function () {
+                helper.onready();
+            });
+        })(clickHelper);
+    </script>
+}
+
+
 <div class="container cloudtext">
     <div class="row">
         <div class="col-lg-6 col-md-8 col-sm-9 col-xs-6">
@@ -17,12 +34,12 @@
             <p>
                 &nbsp&nbsp I'm a software developer living in Louisville, KY.
                 A graduate of Indiana University Southeast,
-                I am now employed as an IT Intern at <a href="http://public.zirmed.com/">ZirMed</a>'s downtown Louisville
+                I am now employed as an IT Intern at <a href="http://public.zirmed.com/" target="_blank">ZirMed</a>'s downtown Louisville
                 office.
             </p>
             <p>
                 &nbsp&nbsp My computing interests include web applications, competitive
-                programming <a href="https://open.kattis.com/problems">problems</a>, Linux,
+                programming <a href="https://open.kattis.com/problems" target="_blank">problems</a>, Linux,
                 Bash, learning OpenGL/graphics programming, and many others. I'm also interested in video games,
                 basketball, martial arts, and Louisville Cardinal athletics.
             </p>

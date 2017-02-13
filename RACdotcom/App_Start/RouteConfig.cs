@@ -14,12 +14,6 @@ namespace RACdotcom
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
-
-            routes.MapRoute(
                 name: "Home",
                 url: "",
                 defaults: new { controller = "Home", action = "Index" }
@@ -36,6 +30,12 @@ namespace RACdotcom
                url: "Contact",
                defaults: new { controller = "Contact", action = "Contact" }
            );
+
+            routes.MapRoute(
+               name: "Default",
+               url: "{controller}/{action}",
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }
