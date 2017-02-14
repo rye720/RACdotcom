@@ -2,7 +2,8 @@
     var module = {
         onready: function () {
             $('#resumeBtn').on("click", function () {
-                ga('send', 'event', 'resume');
+                ga('create', 'UA-77132406-2', 'auto');
+                ga('send', 'pageview', 'Resume');
             });
             $('#navToggle').on("click", function () {
                 var x = document.getElementById("customNav");
