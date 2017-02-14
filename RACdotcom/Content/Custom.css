@@ -31,7 +31,7 @@ img.contactpic {
 }
 
     img.contactpic:hover {
-        box-shadow: 0px 0px 30px #ff0000;
+        box-shadow: 0px 0px 40px #ff0000;
     }
 
 /* for footer gradient*/
