@@ -4,14 +4,14 @@
 
 .list-group {
     width: 200px;
-    background-color: #f2f2f2;
+    background-color: #ffecb3;
     color: black;
     border-style: groove;
     border-color: #bfbea8;
     border-width: 5px;
 }
 
-.col-centered{
+.col-centered {
     float: none;
     margin: 0 auto;
 }

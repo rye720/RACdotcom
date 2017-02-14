@@ -2,64 +2,68 @@
     ViewBag.Title = "RAC: Career";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="container cloudtext">
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div><h1>My Skills</h1></div>
-            <div class="pixelComputer"></div>
-            <div>
-                <div>
-                    <br /><br /><br /><br /><br /><br /><br /><br />
-                </div>
-                <p>
-                    <h3>my background with programming</h3>
-                    &nbsp;&nbsp;After trying a few different jobs and majors out,
-                    I decided to go back to school in 2013 to
-                    try an Intro to CS class. Pretty soon afterward, I knew I'd found what I
-                    wanted to do for a living. I graduated from Indiana University
-                    Southeast in December 2016 with a
-                    bachelor's degree in CS and a minor in Math.
-                </p>
-                <p>
-                    &nbsp;&nbsp;While in school, I exposed myself to as many
-                    different tools, languages, and ways to get involved with programming
-                    as I could find. I competed in <a href="http://derbyhacks.io/#/home" target="_blank">hackathons</a>,
-                    cyber defense <a href="http://www.nationalccdc.org/" target="_blank">competitions</a>, and
-                    ACM programming contests.
-                    I presented this <a href="https://www.youtube.com/watch?v=MpCtwFzW-P0>" target="_blank">robot</a>
-                    at <a href="https://scholarworks.iu.edu/conferences/index.php/iuurc/iuurc21/paper/view/279" target="_blank">
-                        research conferences
-                    </a> and implemented a genetic algorithm in an attempt to
-                    <a href="https://github.com/rye720/GreenMonkeys" target="_blank">simulate population biology</a>.
-                </p>
-                <p>
-                    &nbsp;&nbsp;Professionally, I spent a year working with ASP.NET web forms
-                    as well as tutoring in the CS department at IUS for 2 years. Now I'm at ZirMed
-                    doing .NET development and
-                    soaking up as much knowledge as I can!
-                </p>
-            </div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div><h1>My Skills</h1></div>
+    <div class="pixelComputer"></div>
+    <div>
+        <div>
+            <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h3>things I can use</h3>
-            <h5>(in no particular order)</h5>
-            <div class="nailstring"></div>
-            <br /><br />
-            <ul class="list-group">
-                <li class="list-group-item">Java</li>
-                <li class="list-group-item">C#</li>
-                <li class="list-group-item">C++</li>
-                <li class="list-group-item">Git</li>
-                <li class="list-group-item">x86 Assembly (MASM)</li>
-                <li class="list-group-item">SQL</li>
-                <li class="list-group-item">glut</li>
-                <li class="list-group-item">Vim</li>
-                <li class="list-group-item">Bash</li>
-                <li class="list-group-item">HTML5</li>
-                <li class="list-group-item">CSS3</li>
-                <li class="list-group-item">JavaScript</li>
-                <li class="list-group-item">... and more?</li>
-            </ul>
-        </div>
+        <p>
+            <h3>background with programming</h3>
+            &nbsp;&nbsp;After trying a few different jobs and majors out,
+            I decided to go back to school in 2013 to
+            try an Intro to CS class. Pretty soon afterward, I knew I'd found what I
+            wanted to do for a living. I graduated from Indiana University
+            Southeast in December 2016 with a
+            bachelor's degree in CS and a minor in Math.
+        </p>
+        <p>
+            &nbsp;&nbsp;While in school, I exposed myself to as many
+            different tools, languages, and ways to get involved with programming
+            as I could find. I competed in <a href="http://derbyhacks.io/#/home" target="_blank">hackathons</a>,
+            cyber defense <a href="http://www.nationalccdc.org/" target="_blank">competitions</a>, and
+            ACM programming contests.
+            I presented this <a href="https://www.youtube.com/watch?v=MpCtwFzW-P0>" target="_blank">robot</a>
+            at <a href="https://scholarworks.iu.edu/conferences/index.php/iuurc/iuurc21/paper/view/279" target="_blank">
+                research conferences
+            </a> and implemented a genetic algorithm in an attempt to
+            <a href="https://github.com/rye720/GreenMonkeys" target="_blank">simulate population biology</a>.
+        </p>
+        <p>
+            &nbsp;&nbsp;Professionally, I spent a year working with ASP.NET web forms
+            as well as tutoring in the CS department at IUS for 2 years. Now I'm at ZirMed
+            doing .NET development and
+            soaking up as much knowledge as I can!
+        </p>
     </div>
 </div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <h3>things I can use</h3>
+    <h5>(in no particular order)</h5>
+    <div class="nailstring"></div>
+    <br /><br />
+    <ul class="list-group">
+        <li class="list-group-item">Java</li>
+        <li class="list-group-item">C#</li>
+        <li class="list-group-item">C++</li>
+        <li class="list-group-item">Git</li>
+        <li class="list-group-item">x86 Assembly (MASM)</li>
+        <li class="list-group-item">SQL</li>
+        <li class="list-group-item">glut</li>
+        <li class="list-group-item">Vim</li>
+        <li class="list-group-item">Bash</li>
+        <li class="list-group-item">HTML5</li>
+        <li class="list-group-item">CSS3</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">... and more?</li>
+    </ul>
+</div>
+@section scripts {
+    <script>
+        (function (helper) {
+            $(function () {
+                helper.onready();
+            });
+        })(clickHelper);
+    </script>}
