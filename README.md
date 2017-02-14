@@ -71,7 +71,7 @@ Professional website for Ryan A. Compton
 </tr>
 <tr>
 <td>use 'jquery module pattern'</td>
-<td>attempting but not working yet</td>
+<td>DONE</td>
 </tr>
 
 </table>
