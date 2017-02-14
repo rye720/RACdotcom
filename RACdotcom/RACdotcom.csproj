@@ -112,6 +112,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\my-pixel-art.css" />
     <Content Include="Content\custom.css" />
+    <Content Include="Images\necalli.jpg" />
     <Content Include="Images\ry3working.jpg" />
     <Content Include="error.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

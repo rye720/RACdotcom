@@ -24,10 +24,15 @@ div.cloudtext {
     font-weight: 500;
 }
 
-img.smallpic {
+img.contactpic {
     width: 85%;
     height: 85%;
+    box-shadow: 0px 0px 15px #bfbea8;
 }
+
+    img.contactpic:hover {
+        box-shadow: 0px 0px 30px #ff0000;
+    }
 
 /* for footer gradient*/
 div.customFooter {
