@@ -6,9 +6,9 @@
                 ga('send', 'pageview', 'Resume');
             });
             $('#navToggle').on("click", function () {
-                var x = document.getElementById("customNav");
+                var x = $("#customNav");
                 if (x.className === "topnav") {
-                    x.className += " responsive";
+                    x.addClass("responsive");
                 } else {
                     x.className = "topnav";
                 }

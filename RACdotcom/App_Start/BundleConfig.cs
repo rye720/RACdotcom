@@ -18,7 +18,6 @@ namespace RACdotcom.App_Start
             //CSS
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/bootstrap.css",
                         "~/Content/custom.css", "~/Content/my-pixel-art.css"));
-
             BundleTable.EnableOptimizations = true;
         }
     }

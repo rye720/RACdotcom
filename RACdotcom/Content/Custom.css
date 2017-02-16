@@ -1,5 +1,6 @@
 ﻿body {
     background-color: black;
+    padding: 70px 0 0 0;
 }
 
 .list-group {
@@ -34,7 +35,6 @@ img.contactpic {
         box-shadow: 0px 0px 40px #ff0000;
     }
 
-/* for footer gradient*/
 div.customFooter {
     position: fixed;
     width: 100vw;
@@ -54,12 +54,7 @@ div.customFooter {
     background: linear-gradient(black, #c1c5cc); /* Standard syntax */
 }
 
-ul.topnav {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.navbar {
     background: #a0ffa5; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#c1c5cc, black); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#c1c5cc, black); /* For Opera 11.1 to 12.0 */
@@ -67,93 +62,14 @@ ul.topnav {
     background: linear-gradient(#c1c5cc, black); /* Standard syntax */
 }
 
-    ul.topnav li {
-        float: left;
-    }
-
-        ul.topnav li a {
-            display: inline-block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            transition: 0.3s;
-            font-size: 17px;
-        }
-
-            ul.topnav li a:hover {
-                background-color: #8b9099;
-                color: black;
-            }
-
-        ul.topnav li.icon {
-            display: none;
-        }
-
-@media screen and (max-width:680px) {
-    ul.topnav li:not(:first-child) {
-        display: none;
-    }
-
-    ul.topnav li.icon {
-        float: right;
-        display: inline-block;
-    }
+.navbar-inverse .navbar-brand {
+    color: #bfbea8;
 }
 
-@media screen and (max-width:680px) {
-    ul.topnav.responsive {
-        position: relative;
-    }
-
-        ul.topnav.responsive li.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-
-        ul.topnav.responsive li {
-            float: none;
-            display: inline;
-        }
-
-            ul.topnav.responsive li a {
-                display: block;
-                text-align: left;
-            }
+.nav.navbar-nav li a {
+    color: #bfbea8;
 }
 
-/* When the screen is less than 680 pixels wide, hide all list items, except for the first one. */
-@media screen and (max-width:680px) {
-    ul.menu-bar li:not(:first-child) {
-        display: none;
-    }
-
-    ul.menu-bar li.icon {
-        float: right;
-        display: inline-block;
-    }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:680px) {
-    ul.menu-bar.responsive {
-        position: relative;
-    }
-
-        ul.menu-bar.responsive li.icon {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-
-        ul.menu-bar.responsive li {
-            float: none;
-            display: inline;
-        }
-
-            ul.menu-bar.responsive li a {
-                display: block;
-                text-align: left;
-            }
+.nav.navbar-nav.navbar-right li a {
+    color: #bfbea8;
 }
