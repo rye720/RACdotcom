@@ -3,7 +3,7 @@
         onready: function () {
             $('#resumeBtn').on("click", function () {
                 ga('create', 'UA-77132406-2', 'auto');
-                ga('send', 'pageview', 'Resume');
+                ga('send', 'event', 'link', 'click', 'Resume');
             });
             $('#navToggle').on("click", function () {
                 var x = $("#customNav");
