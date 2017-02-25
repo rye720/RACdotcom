@@ -1,6 +1,15 @@
 ﻿body {
-    background-color: black;
+    background: url(../Images/starry_sky_by_allisonpotter-d5gkvyf.jpg);
+    background-size: cover; /*for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+*/
+    margin: 0;
+    /*background-color: black;*/
+    padding-top: 48px;
+    /*overflow: hidden;*/
     padding: 70px 0 0 0;
+}
+
+a:visited {
+    color: blueviolet;
 }
 
 .list-group {
@@ -18,7 +27,7 @@
 }
 
 div.cloudtext {
-    color: #bfbea8;
+    color: #c9c8b6;
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
     font-style: normal;
     font-variant: normal;
@@ -63,13 +72,17 @@ div.customFooter {
 }
 
 .navbar-inverse .navbar-brand {
-    color: #bfbea8;
+    color: #e9e9e2;
 }
 
 .nav.navbar-nav li a {
-    color: #bfbea8;
+    color: #e9e9e2;
 }
 
 .nav.navbar-nav.navbar-right li a {
-    color: #bfbea8;
+    color: #e9e9e2;
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* define mobile specific styles here */
 }

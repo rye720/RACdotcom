@@ -113,6 +113,8 @@
     <Content Include="Content\my-pixel-art.css" />
     <Content Include="Content\custom.css" />
     <Content Include="Images\necalli.jpg" />
+    <Content Include="Images\nightwave_hokusai.jpg" />
+    <Content Include="Images\rightsidewave.jpg" />
     <Content Include="Images\ry3working.jpg" />
     <Content Include="error.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -125,6 +127,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Images\starrySkyThin.jpg" />
+    <Content Include="Images\starry_sky_by_allisonpotter-d5gkvyf.jpg" />
+    <Content Include="Images\wave2_hokusai.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Resume\RAC_resume_2017.pdf" />
