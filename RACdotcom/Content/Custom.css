@@ -1,6 +1,6 @@
 ﻿body {
     background: url(../Images/starry_sky_by_allisonpotter-d5gkvyf.jpg);
-    background-size: cover; /*for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+*/
+    /*background-size: cover;*/ /*for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+*/
     margin: 0;
     /*background-color: black;*/
     padding-top: 48px;
