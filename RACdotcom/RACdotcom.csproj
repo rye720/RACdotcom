@@ -133,7 +133,7 @@
     <Content Include="Images\wave2_hokusai.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Resume\RAC_resume_2017.pdf" />
+    <Content Include="Resume\RyanC_resume_May2017.pdf" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
