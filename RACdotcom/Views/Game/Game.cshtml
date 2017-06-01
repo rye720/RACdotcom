@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Game";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Fun!</h1>
+<p>
+    <button onclick="myMove()">Click Me</button>
+</p>
+<div id="myContainer" class ="col-centered" style="width: 400px; height: 400px; position: relative; background: purple">
+    <div id="myAnimation" style="width: 50px; height: 50px; position: absolute; background: white"/>
+</div>
+@section scripts {
+    <script>
+        (function (helper) {
+            $(function () {
+                helper.onready();
+            });
+        })(clickHelper);
+    </script>
+
+    <script>
+        function myMove() {
+            var elem = document.getElementById("myAnimation");
+            var pos = 0;
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (pos == 350) {
+                    clearInterval(id);
+                } else {
+                    pos++;
+                    elem.style.top = pos + 'px';
+                    elem.style.left = pos + 'px';
+                }
+            }
+        }
+    </script>
+}

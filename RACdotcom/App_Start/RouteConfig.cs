@@ -32,6 +32,12 @@ namespace RACdotcom
            );
 
             routes.MapRoute(
+                name: "Game",
+                url: "Game",
+                defaults: new { controller = "Game", action = "Game" }
+            );
+
+            routes.MapRoute(
                name: "Default",
                url: "{controller}/{action}",
                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

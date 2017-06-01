@@ -146,6 +146,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProController.cs" />
     <Compile Include="Global.asax.cs">
@@ -166,6 +167,7 @@
     <Content Include="Views\Pro\Pro.cshtml" />
     <Content Include="Views\Contact\Contact.cshtml" />
     <Content Include="Views\Shared\_CustomFooter.cshtml" />
+    <Content Include="Views\Game\Game.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
