@@ -1,5 +1,5 @@
 # RACdotcom
-Professional website for Ryan A. Compton
+Personal website for myself
 
 
 <table>
