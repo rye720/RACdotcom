@@ -42,7 +42,6 @@ C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Webpages.Deployment.xml
 C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Webpages.Razor.xml
 C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Helpers.xml
 C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Mvc.xml
-C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.csprojResolveAssemblyReference.cache
 C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.dll
 C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.pdb
 C:\Projects\RACdotcom\RACdotcom\bin\Antlr3.Runtime.dll
@@ -52,3 +51,6 @@ C:\Projects\RACdotcom\RACdotcom\bin\Antlr3.Runtime.pdb
 C:\Projects\RACdotcom\RACdotcom\bin\Newtonsoft.Json.xml
 C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Optimization.dll
 C:\Projects\RACdotcom\RACdotcom\bin\System.Web.Optimization.xml
+C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.csprojAssemblyReference.cache
+C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.csproj.CoreCompileInputs.cache
+C:\Projects\RACdotcom\RACdotcom\obj\Debug\RACdotcom.csproj.CopyComplete
